@@ -1,7 +1,7 @@
 phi = 3.14
 
 jari_jari = float(input("Jari-jari lingkaran: "))
-\
+
 if jari_jari < 0:
     print("Jari-jari lingkaran tidak boleh negatif")
 else:
