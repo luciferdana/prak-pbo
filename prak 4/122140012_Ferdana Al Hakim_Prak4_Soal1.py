@@ -15,7 +15,7 @@ class Hewan:
 
 class Kucing(Hewan):
     def bersuara(self):
-        print(f"Kucing {self.nama} bersuara: Meong!")
+        print(f"Kucing {self.nama} bersuara: Miaww!")
 
     def makan(self):
         print(f"Kucing {self.nama} sedang makan: ikan")
@@ -35,8 +35,8 @@ class Anjing(Hewan):
         print(f"Anjing {self.nama} sedang minum: air")
 
 
-hewan1 = Kucing("Kiki", "Betina")
-hewan2 = Anjing("Ichi", "Jantan")
+hewan1 = Kucing("Jarwo", "Betina")
+hewan2 = Anjing("Dini", "Jantan")
 
 print(hewan1.nama)  
 print(hewan2.nama)  
